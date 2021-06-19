@@ -8,11 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre&family=Viaoda+Libre&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" >
     <link rel="stylesheet" href="./css/contact.css" >
+    <script src="https://kit.fontawesome.com/cb5f89e068.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header>
         <div>
             <nav>
+                <img src="./images/syd-hair-logo2.png" alt="S hair logo">
                 <h1>Styles by Syd</h1>
                 <ul>
                     <li><a href="index.html" target="_blank">Home</a></li>
@@ -22,39 +25,41 @@
             </nav>
         </div>
     </header> 
-    <main>
-        <h1>Contact</h1>
 
-        <form>
-            <div class="form-group">
-                <label for="nameInput">Name</label>
-                <input type="text" id="nameInput" />
-            </div>
+    <h1>Contact</h1>
 
-            <div class="form-group">
-                <label for="emailInput">Email</label>
-                <input type="email" id="emailInput" />
-            </div>
+        <div class="radius contact-form">
+            <form>
+                <div class="form-group">
+                    <label for="nameInput">Name</label>
+                    <input type="text" id="nameInput" />
+                </div>
 
-            <div class="form-group">
-                <label for="subjectInput">Subject</label>
-                <select id="subjectInput">
-                    <option value="inquiry">Inquiry</option>
-                    <option value="question">Question</option>
-                </select> 
-            </div>
+                <div class="form-group">
+                    <label for="emailInput">Email</label>
+                    <input type="email" id="emailInput" />
+                </div>
 
-            <div class="form-group">
-                <label for="messageInput">Message</label>
-                <textarea id="messageInput"></textarea>
-            </div>
+                <div class="form-group">
+                    <label for="subjectInput">Subject</label>
+                    <select id="subjectInput">
+                        <option value="inquiry">Inquiry</option>
+                        <option value="question">Question</option>
+                    </select> 
+                </div>
 
-            <input type="submit" value="Submit" />
+                <div class="form-group">
+                    <label for="messageInput">Message</label>
+                    <textarea id="messageInput"></textarea>
+                </div>
+                
+                <input type="submit" value="Submit" />
 
-            <div class="form-group"></div>
-        </form>
-        
+                <div class="form-group"></div>
+            </form>
+        </div>
 
+    <main class="radius">
         <h1>Gallery</h1>
         <div class="gallery row">
             <div class="column left">

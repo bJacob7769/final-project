@@ -21,6 +21,12 @@ h1, h2 {
     font-family: 'Viaoda Libre', cursive;
 }
 
+nav>img {
+    float:left;
+    height: 50px;
+    margin: .5rem;
+}
+
 /* Header */
 
 header>div>nav {
@@ -107,36 +113,41 @@ body>main {
     
 }
 
-.bottom {
+/* .bottom {
     background-color: #c9c5ba;
     width: 250px;
     height: 250px;
     /* display: inline-block; */
-    margin: auto;
+    /* margin: auto;
+} */ 
+
+#social {
+    width: 35%;
+    height: 350px;
+    margin: 2rem auto;
+    background-color: #c9c5ba;
 }
 
-body>div>h2 {
-    text-align: center;
+i {
+    font-size: 125px;
+    padding: .5rem;
+    margin: .5rem 3.5rem;
+    color: #407076;
 }
 
 .column {
     float: left;
+    width: 40%;
 }
 
-.left .right {
-    width: 30%;
-    margin: 23px;
-}
-
-.middle {
-    width: 20%;
-    margin: 50px;
-}
-
-.row::after {
+.row:after {
     content: "";
     display: table;
     clear: both;
+}
+
+body>div>h2 {
+    text-align: center;
 }
 
 
@@ -164,11 +175,11 @@ body>div>h2 {
     margin: 1.5rem;
 }
 
-.gallery {
+/* .gallery {
     background-color: #c9c5ba;
-    margin: auto;
+    margin: 10px auto;
     width: 90%;
-}
+} */
 
 /* about page */
 main>h2 {
@@ -186,4 +197,8 @@ main>ul>li {
 footer {
     background-color: #ebbab9;
     height: 25px;
+}
+
+.radius {
+    border-radius: 10px;
 }
