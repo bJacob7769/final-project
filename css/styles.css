@@ -1,3 +1,5 @@
+/* Global */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
 
 body {
     background-color: #698996;
+    font-family: 'Vesper Libre', serif;
 }
 
 a {
@@ -15,12 +18,23 @@ a {
 
 h1, h2 {
     text-decoration: underline;
+    font-family: 'Viaoda Libre', cursive;
 }
+
+/* Header */
 
 header>div>nav {
     background-color: #407076;
     height: 75px;
     width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+header>div>nav>h1 {
+    text-align: center;
+    padding: 1rem;
+    float: left;
 }
 
 header>div>nav>ul {
@@ -42,6 +56,35 @@ header>div>nav>ul>li>a {
     /* margin: 1.5rem; */
 }
 
+header>div>nav>ul>li>a:hover {
+    border:1px solid white;
+    background-color: #698996;
+    color: #ebbab9;
+}
+
+header #hero {
+    background-image: 
+    url("../images/salon-hero.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    position: relative;
+}
+
+#hero-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: #407076;
+    font-size: 4.5rem;
+}
+
+/* Body  */
+
 body>main>div>img {
     display: inline-block;
 }
@@ -57,7 +100,7 @@ body>h1 {
 }
 
 body>main {
-    margin: auto;
+    margin: 1rem auto;
     width: 75%;
     padding: 1.5rem;
     background-color: #c9c5ba;
@@ -69,7 +112,7 @@ body>main {
     width: 250px;
     height: 250px;
     /* display: inline-block; */
-    margin: 1.5rem;
+    margin: auto;
 }
 
 body>div>h2 {
@@ -87,6 +130,7 @@ body>div>h2 {
 
 .middle {
     width: 20%;
+    margin: 50px;
 }
 
 .row::after {
@@ -101,6 +145,7 @@ body>div>h2 {
     background-color: #c9c5ba;
     margin: auto;
     width: 60%;
+    padding: 2rem;
 }
 
 /* div>ul>li {
@@ -114,8 +159,8 @@ body>div>h2 {
 }
 
 .gal-image {
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     margin: 1.5rem;
 }
 
@@ -131,6 +176,14 @@ main>h2 {
     margin: 1.5rem;
 }
 
+
+
 main>ul>li {
     padding: .5rem;
+}
+
+
+footer {
+    background-color: #ebbab9;
+    height: 25px;
 }
