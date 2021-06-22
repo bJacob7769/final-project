@@ -34,8 +34,9 @@ header>div>nav {
     background-color: #407076;
     height: 75px;
     width: 100%;
-    position: -webkit-sticky;
+    /* position: fixed; */
     position: sticky;
+    top: 0;
 }
 
 header>div>nav>h1 {
@@ -73,9 +74,9 @@ header>div>nav>ul>li>a:hover {
 header #hero {
     background-image: 
     url("../images/salon-hero.jpg");
-    height: 1000px;
+    height: 800px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 header {
@@ -89,6 +90,7 @@ header {
     left: 25%;
     color: #407076;
     font-size: 4.5rem;
+    text-shadow: 5px 5px #ebbab9;
 }
 
 /* Body  */
@@ -191,6 +193,7 @@ footer {
     background-color: #ebbab9;
     height: 125px;
     font-family: 'Viaoda Libre', cursive;
+    font-weight: bold;
 }
 
 .radius {
