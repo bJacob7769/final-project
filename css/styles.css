@@ -19,6 +19,7 @@ a {
 h1, h2 {
     text-decoration: underline;
     font-family: 'Viaoda Libre', cursive;
+    /* font-size: 3rem; */
 }
 
 nav>img {
@@ -41,6 +42,7 @@ header>div>nav>h1 {
     text-align: center;
     padding: 1rem;
     float: left;
+    font-size: 2rem;
 }
 
 header>div>nav>ul {
@@ -121,18 +123,19 @@ body>main {
     /* margin: auto;
 } */ 
 
-#social {
+/* #social {
     width: 35%;
     height: 350px;
     margin: 2rem auto;
     background-color: #c9c5ba;
-}
+} */
 
 i {
-    font-size: 125px;
+    font-size: 50px;
     padding: .5rem;
-    margin: .5rem 3.5rem;
+    margin: 0 1.5rem 1.5rem 1.5rem;
     color: #407076;
+    float: right;
 }
 
 .column {
@@ -163,17 +166,7 @@ body>div>h2 {
     list-style: none;
 } */
 
-.contact-section {
-    background-color: #c9c5ba;
-    margin: auto;
-    width: 60%;
-}
 
-.gal-image {
-    height: 350px;
-    width: 350px;
-    margin: 1.5rem;
-}
 
 /* .gallery {
     background-color: #c9c5ba;
@@ -196,7 +189,7 @@ main>ul>li {
 
 footer {
     background-color: #ebbab9;
-    height: 25px;
+    height: 125px;
 }
 
 .radius {
