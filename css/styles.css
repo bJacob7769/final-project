@@ -19,7 +19,6 @@ a {
 h1, h2 {
     text-decoration: underline;
     font-family: 'Viaoda Libre', cursive;
-    /* font-size: 3rem; */
 }
 
 nav>a>img {
@@ -28,13 +27,16 @@ nav>a>img {
     margin: .5rem;
 }
 
+.radius {
+    border-radius: 10px;
+}
+
 /* Header */
 
 header>div>nav {
     background-color: #407076;
     height: 75px;
     width: 100%;
-    /* position: fixed; */
     position: sticky;
     top: 0;
 }
@@ -117,21 +119,6 @@ body>main {
     
 }
 
-/* .bottom {
-    background-color: #c9c5ba;
-    width: 250px;
-    height: 250px;
-    /* display: inline-block; */
-    /* margin: auto;
-} */ 
-
-/* #social {
-    width: 35%;
-    height: 350px;
-    margin: 2rem auto;
-    background-color: #c9c5ba;
-} */
-
 i {
     font-size: 50px;
     padding: .5rem;
@@ -164,12 +151,6 @@ body>div>h2 {
     padding: 2rem;
 }
 
-/* div>ul>li {
-    list-style: none;
-} */
-
-
-
 /* .gallery {
     background-color: #c9c5ba;
     margin: 10px auto;
@@ -196,9 +177,6 @@ footer {
     font-weight: bold;
 }
 
-.radius {
-    border-radius: 10px;
-}
 
 footer>div>div>p {
     padding: .25rem .5rem;
