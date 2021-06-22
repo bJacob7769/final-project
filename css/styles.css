@@ -22,7 +22,7 @@ h1, h2 {
     /* font-size: 3rem; */
 }
 
-nav>img {
+nav>a>img {
     float:left;
     height: 50px;
     margin: .5rem;
@@ -73,7 +73,7 @@ header>div>nav>ul>li>a:hover {
 header #hero {
     background-image: 
     url("../images/salon-hero.jpg");
-    height: 800px;
+    height: 1000px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -140,7 +140,7 @@ i {
 
 .column {
     float: left;
-    width: 40%;
+    width: 50%;
 }
 
 .row:after {
@@ -190,8 +190,13 @@ main>ul>li {
 footer {
     background-color: #ebbab9;
     height: 125px;
+    font-family: 'Viaoda Libre', cursive;
 }
 
 .radius {
     border-radius: 10px;
+}
+
+footer>div>div>p {
+    padding: .25rem .5rem;
 }
