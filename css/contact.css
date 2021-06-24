@@ -54,3 +54,9 @@ h1 {
     margin: 1.5rem;
     border: double 10px #407076;
 }
+
+#button {
+    border-radius: 3px;
+    padding: 3px;
+    /* background-color: #ebbab9; */
+}
